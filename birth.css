@@ -1,19 +1,20 @@
 ﻿
       @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
+  background: linear-gradient(to bottom, #050216, #0a032c);
   height: auto !important;
 }
 body {
 letter-spacing: -0.05em !important;
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
-background-color: #e2f1ff; /*(선택) 배경색이 필요 할 경우, 배경 이미지가 있으면 이 코드 제거 */
-    background-image: url('https://dandegimon.github.io/silgerher/images/flower1'), url('https://dandegimon.github.io/silgerher/images/flower2'), url('https://dandegimon.github.io/silgerher/images/flower3');
+background-image: url('https://dandegimon.github.io/silgerher/images/star1.png'), url('https://dandegimon.github.io/silgerher/images/star2.png'), url('https://dandegimon.github.io/silgerher/images/star3.png');
     -webkit-animation: snow 10s linear infinite;
     -moz-animation: snow 10s linear infinite;
     -ms-animation: snow 10s linear infinite;
     animation: snow 10s linear infinite;}
 }
+
 
 /* 전체 쉐도우 */
 
@@ -26,7 +27,7 @@ header #header-bar>.row,
 /* 로고밑 NAV bar */
 
 header #header-bar>.row {
-  border-top: 4px solid #9b0202;
+  border-top: 4px solid #5665d8;
   border-right: none;
   border-bottom: none;
 }
@@ -35,10 +36,10 @@ header #header-bar>.row {
 
 header .row>div:nth-child(1)>a {
   display: block;
-  width: 188px;
-  height: 65px;
+  width: 145px;
+  height: 50px;
   background: url(https://dandegimon.github.io/silgerher/imges/birth.png) no-repeat;
-  background-size: auto 65px;
+  background-size: auto 50px;
 }
 
 header .row>div:nth-child(1)>a>img {
@@ -51,13 +52,13 @@ header .row>div:nth-child(1)>a>img {
 /* 검색폼 보더 */
 
 header #right-search-form>input[type='text'] {
-  border: 3px solid #edea0c;
+  border: 3px solid #bf4040;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
 #main .menu-wrapper>.header {
-  background: #9b0202;
+  background: #5665d8;
 }
 
 .fa-navicon:before,
@@ -67,7 +68,7 @@ header #right-search-form>input[type='text'] {
 }
 
 .fa-square:before {
-  color: #0b4712;
+  color: #5665d8;
 }
 
 header #header-bar>.row,
@@ -84,37 +85,37 @@ header #header-bar>.row,
 /* 헤더 검색 버튼 */
 
 header #right-search-form>#right-search-btn {
-  color: #edea0c;
+  color: #bf4040;
 }
 
 /* 헤더 [광고]배경색 */
 
 header #header-bar #header-top-notice strong.notice-badge {
-  background: #9b0202;
+  background: #bf4040;
 }
 
 /* fa색상 */
 
 header #header-bar .fa {
-  color: #edea0c;
+  color: #bf4040;
 }
 
 /* 스트리머 게시판 상단 정보 글씨색상 */
 
 #board-info #board-info-bottom a {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
 #main .menu-wrapper>a>em {
-  color: #0b4712;
+  color: #5665d8;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
 
 #main .menu-wrapper .spacer {
-  background: #0b4712;
+  background: #5665d8;
   height: 0.15em;
 }
 
@@ -134,7 +135,7 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
 }
 
 #article-list #article-list-category {
-  border-top: 2px solid #9b0202;
+  border-top: 2px solid #bf4040;
   background: white;
 }
 
@@ -143,15 +144,15 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
 }
 
 #article-list>.article-list-row>.item>.list-header>span {
-  background-color: #9b0202;
+  background-color: #bf4040;
 }
 
 #article-list>.article-list-row>.item>.list-title>small.comment-count {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 .pagination>.active>a,
@@ -160,29 +161,29 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
 .pagination>.active>span,
 .pagination>.active>span:focus,
 .pagination>.active>span:hover {
-  background-color: #9b0202;
-  border-color: #9b0202;
+  background-color: #bf4040;
+  border-color: #bf4040;
 }
 
 .pagination>li>a:focus,
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 .pagination>li>a,
 .pagination>li>span {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 #article-content-wrapper>.header {
-  border-top: 2px solid #9b0202;
+  border-top: 2px solid #bf4040;
 }
 
 #article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
 #article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 #article-info>h2 {
@@ -190,11 +191,11 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
 }
 
 #article-info>h2>span.category {
-  color: #9b0202 !important;
+  color: #bf4040 !important;
 }
 
 #article-reply-area>.header h5 {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 #main .menu-wrapper>a {
@@ -202,11 +203,11 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
 }
 
 a {
-  color: #9b0202;
+  color: #bf4040;
 }
 
 span.a-badge i.fa.fa-info-circle {
-  color: #9b0202;
+  color: #5665d8;
 }
 
 /* footer */
@@ -227,28 +228,5 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .btn-primary {
-  background: #edea0c !important;
-}
-
-
-/* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
-@keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-  
-@-moz-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-  
-@-webkit-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 50% {}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
-  
-@-ms-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+  background: #bf4040 !important;
 }
