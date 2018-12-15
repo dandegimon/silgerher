@@ -230,3 +230,25 @@ span.a-badge i.fa.fa-info-circle {
 .btn-primary {
   background: #bf4040 !important;
 }
+
+/* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+  
+@-moz-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+  
+@-webkit-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 50% {}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
+  
+@-ms-keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+ 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+}
