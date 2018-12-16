@@ -108,9 +108,10 @@ color: #0f5912;
 font-weight: 700;
 }
 
-/* 사람수 */
-#viewers:after {
-    content: "명의 헨타이";}
+#board-info #viewers-area #viewers:after {
+content: "명의 헨타이"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
+cursor: text;
+}
 
 /* fa색상 광고 옆 글자 */
 
