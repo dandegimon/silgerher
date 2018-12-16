@@ -1,5 +1,6 @@
-html,body {
-background: #8e0c0c; /*¹è°æ»ö*/
+html {
+  background: linear-gradient(to bottom, #8b0b0b, #F4F4F4);
+  height: auto !important;
 }
 
 body {
