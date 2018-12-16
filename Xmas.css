@@ -1,3 +1,20 @@
+html {
+  background: linear-gradient(to bottom, #8b0b0b, #F4F4F4);
+  height: auto !important;
+}
+
+body {
+letter-spacing: -0.05em !important;
+  background: transparent;
+  font-family: 'Nanum Gothic', sans-serif;
+background-image: url('https://dandegimon.github.io/silgerher/images/snow1.png'), url('https://dandegimon.github.io/silgerher/images/snow2.png'), url('https://dandegimon.github.io/silgerher/images/snow3.png');
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 15s linear infinite;}
+}
+
+
 header .row>div:nth-child(1)>a {
 float: left;
 position: absolute;
@@ -26,11 +43,6 @@ header #header-bar>.row {
   border-top: 4px solid #0f5912;
   border-right: none;
   border-bottom: none;
-}
-
-#board-info #viewers-area #viewers:after {
-content: "명의 헨타이"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
-cursor: text;
 }
 
 /* 헤더 검색 버튼 */
@@ -113,6 +125,9 @@ color: #0f5912;
 font-weight: 700;
 }
 
+/* 사람수 */
+#viewers:after {
+    content: "명의 헨타이";}
 
 /* fa색상 광고 옆 글자 */
 
@@ -196,4 +211,4 @@ span.a-badge i.fa.fa-info-circle {
 @-ms-keyframes snow {
 0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
  100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
-}
+}
