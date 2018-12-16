@@ -28,6 +28,11 @@ header #header-bar>.row {
   border-bottom: none;
 }
 
+#board-info #viewers-area #viewers:after {
+content: "명의 헨타이"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
+cursor: text;
+}
+
 /* 헤더 검색 버튼 */
 header #right-search-form>#right-search-btn {
   color: #0f5912;
@@ -108,10 +113,6 @@ color: #0f5912;
 font-weight: 700;
 }
 
-#board-info #viewers-area #viewers:after {
-content: "명의 헨타이"; /*오른쪽 상단 사이트 이용자 수 뒷부분*/
-cursor: text;
-}
 
 /* fa색상 광고 옆 글자 */
 
