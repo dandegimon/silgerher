@@ -1,20 +1,3 @@
-html {
-  background: linear-gradient(to bottom, #8b0b0b, #FFFFFF);
-  height: auto !important;
-}
-
-body {
-letter-spacing: -0.05em !important;
-  background: transparent;
-  font-family: 'Nanum Gothic', sans-serif;
-background-image: url('https://dandegimon.github.io/silgerher/images/snow1.png'), url('https://dandegimon.github.io/silgerher/images/snow2.png'), url('https://dandegimon.github.io/silgerher/images/snow3.png');
-    -webkit-animation: snow 10s linear infinite;
-    -moz-animation: snow 10s linear infinite;
-    -ms-animation: snow 10s linear infinite;
-    animation: snow 15s linear infinite;}
-}
-
-
 header .row>div:nth-child(1)>a {
 float: left;
 position: absolute;
@@ -55,6 +38,12 @@ header #right-search-form>#right-search-btn {
 color: #0f5912;
 }
 
+/* 게시글 댓글 갯수 색 */
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #8cc251;
+}
+
+
 /* 좌측 메뉴 큰틀 배경색 */
 header #header-bar #header-top-notice strong.notice-badge,
 #main .menu-wrapper>.header,
@@ -77,7 +66,7 @@ background: #fffceb;
 /* 게시글 페이지 숫자 테두리 */
 .pagination>li>a,
 .pagination>li>span{
-border: 1px solid #0f5912;
+color : #0f5912;
 }
 
 /* 게시글 페이지 선택된 곳 배경 */
