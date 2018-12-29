@@ -333,14 +333,7 @@ border:none
     border-radius: 10px;
 }
 
-div#article-list-row-12755355 {
-    background: url(https://cdn.discordapp.com/attachments/460145928850898945/511509470686347274/--1.png) no-repeat !important;
-    background-size: 610px 33px !important;
-    background-position: 55px 0 !important;
-    background-color: #000 !important;
-    border-top: 3px solid #000;
-    animation: border 2s linear 0s infinite alternate backwards;
-}
+
 
 /* 눈 내리는 효과 설정 CSS 파일 맨 아래에 추가*/
 @keyframes snow {
